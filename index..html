@@ -1,58 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="login-area">
-        <form action="" class="login-form">
-            <h1 class="login-title">Log in to your account</h1>
-            <div class="login-content grid">
-              <div class="login-box">
-                    <input type="email" id="email" class="login-input" required placeholder="Email">
-                    <label for="" class="login-label">Email:</label>
+      <form action="" class="login-form">
+        <h1 class="login-title">Log in to your account</h1>
+        <div class="login-content grid">
+          <div class="login-box">
+            <input
+              type="email"
+              id="email"
+              class="login-input"
+              required
+              placeholder="Email"
+            />
+            <label for="" class="login-label">Email:</label>
 
-                    <i class="ri-mail-fill"></i>
-              </div>
+            <i class="ri-mail-fill"></i>
+          </div>
 
-              
-              <div class="login-box">
-                    <input type="password" class="login-input" required placeholder="Password">
-                    <label for="" class="login-label">Password:</label>
-              </div>
-            </div>
-            <a href="" class="login-forgot">Forgot Password?</a>
-            <button type="submit" class="login-button">Login</button>
-        </form>
-        <div class="login-social">
-            <p class="login-social-title">or login with</p>
-
-            <div class="login-social-links">
-                <a href="#" class="login-social-link">
-                    <img src="google.svg" alt="" class="login-social-img">
-                </a>
-
-                 <a href="#" class="login-social-link">
-                    <img src="facebook.svg" alt="" class="login-social-img">
-                </a>
-
-                 <a href="#" class="login-social-link">
-                    <img src="apple.svg" alt="" class="login-social-img">
-                </a>
-            </div>
+          <div class="login-box">
+            <input
+              type="password"
+              class="login-input"
+              required
+              placeholder="Password"
+            />
+            <label for="" class="login-label">Password:</label>
+          </div>
         </div>
+        <a href="" class="login-forgot">Forgot Password?</a>
+        <button type="submit" class="login-button">Login</button>
+      </form>
+      <div class="login-social">
+        <p class="login-social-title">or login with</p>
 
-        <p class="login-switch">
-            Don't have an account?
-         <button id="loginButtonRegister">Create account</button>
-        </p>
+        <div class="login-social-links">
+          <a href="#" class="login-social-link">
+            <img src="google.svg" alt="" class="login-social-img" />
+          </a>
+
+          <a href="#" class="login-social-link">
+            <img src="facebook.svg" alt="" class="login-social-img" />
+          </a>
+
+          <a href="#" class="login-social-link">
+            <img src="apple.svg" alt="" class="login-social-img" />
+          </a>
+        </div>
+      </div>
+
+      <p class="login-switch">
+        Don't have an account?
+        <button id="loginButtonRegister">Create account</button>
+      </p>
+
+      <div class="login-register">
+        <h1 class="login-title">Create new account</h1>
+
+        <div class="login-area">
+          <form action="" class="login-form">
+            <div class="login-content-grid">
+              <div class="login-group-grid">
+
+                <div class="login-box">
+                  <input type="text" class="login-input" id="names" required placeholder/>
+                  <label for="Names" class="login-label">Names</label>
 
 
-        <script src="script.js"></script>
+                </div>
+
+                <div class="login-box">
+                  <input type="text" class="login-input" id="surnames"required placeholder/>
+                  <label for="surnames" class="login-label">Surnames</label>
+
+
+                </div>
+
+                <div class="login-box">
+
+                  <input type="email" class="login-input" id=""required placeholder/>
+                  <label for="createEmail" class="login-label">CreateEmail</label>
+
+                  
+                </div>
+
+                <div class="login-box">
+
+                  <input type="password" class="login-input" id="passwordCreate"required placeholder/>
+                  <label for="passwordCreate" class="login-label">Password</label>
+
+                  
+                </div>
+
+              </div>
+            </div>
+          </form>
+
+          <p class="login-switch"></p>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
     </div>
-</body>
+  </body>
 </html>
