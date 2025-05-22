@@ -32,6 +32,7 @@
     z-index: 1;
     transition: border-color .4s;
     font-size: 20px;
+    
 }
 .login-input:autofill{
     transition: background-color 6000s color 6000s;
@@ -39,8 +40,10 @@
 .login-label{
     position: absolute;
     left: 1.25rem;
-    font-weight: var(--font-semi-bold);
+    font-weight: bold;
     transition: transform .4s, font-size .4s, color .4s;
+    color: black;
+    padding-top: 1rem;
 }
 
 .login-icon{
@@ -136,5 +139,5 @@
 }
 .login-input:focus ~ .login-label,
 .login-input:focus ~ .login-icon{
-    color: aqua;
+    color: rgb(255, 153, 0);
 }
