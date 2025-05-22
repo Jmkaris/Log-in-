@@ -5,7 +5,8 @@
     overflow: hidden;
 }body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url('');
+    background-image: url('bg.jpg');
+    color: white;
 }
 .login-title{
     font-size: 30px;
@@ -35,7 +36,7 @@
 .login-input:autofill{
     transition: background-color 6000s color 6000s;
 }
-.login-labe{
+.login-label{
     position: absolute;
     left: 1.25rem;
     font-weight: var(--font-semi-bold);
@@ -57,10 +58,11 @@
     margin: 1rem 0 0 auto;
     font-size: smaller;
     font-weight: 2px;
+    color: aliceblue;
 
 }
 .login-forgot:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .login-button{
     width: 100%;
