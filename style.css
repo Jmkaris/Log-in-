@@ -5,6 +5,7 @@
     overflow: hidden;
 }body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('');
 }
 .login-title{
     font-size: 30px;
@@ -104,7 +105,7 @@
 .login-social-link{
     width: 32px;
     height: 32px;
-    background-color: rgb(155, 156, 156);
+    background-color: rgb(224, 245, 245);
     box-shadow: 0.4px 8px hsla(0, 0% 0%, .1);
     border-radius: .5rem;
     display: grid;
@@ -118,4 +119,20 @@
 .login-switch{
     text-align: center;
     font-size: small;
+}
+.login-switch button{
+    background: none;
+    color: rgb(86, 125, 255);
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+}
+.login-switch button:hover{
+    color: rgb(212, 0, 255);
+}
+.login-input:focus ~ .login-label,
+.login-input:focus ~ .login-icon{
+    color: aqua;
 }
