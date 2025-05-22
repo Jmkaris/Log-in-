@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="login conntainer grid active" id="loginAccessRegister">
     <div class="login-area">
       <form action="" class="login-form">
         <h1 class="login-title">Log in to your account</h1>
@@ -17,7 +18,7 @@
               id="email"
               class="login-input"
               required
-              placeholder="Email"
+              placeholder=""
             />
             <label for="" class="login-label">Email:</label>
 
@@ -29,7 +30,7 @@
               type="password"
               class="login-input"
               required
-              placeholder="Password"
+              placeholder=""
             />
             <label for="" class="login-label">Password:</label>
           </div>
@@ -60,7 +61,8 @@
         <button id="loginButtonRegister">Create account</button>
       </p>
 
-      <div class="login-register">
+      
+        <div class="login-register">
         <h1 class="login-title">Create new account</h1>
 
         <div class="login-area">
@@ -70,43 +72,48 @@
 
                 <div class="login-box">
                   <input type="text" class="login-input" id="names" required placeholder/>
-                  <label for="Names" class="login-label">Names</label>
+                  <label for="Names" class="login-label">Names:</label>
 
-
+                <i class="ri-eye-off-fill login-icon"></i>
                 </div>
 
                 <div class="login-box">
                   <input type="text" class="login-input" id="surnames"required placeholder/>
-                  <label for="surnames" class="login-label">Surnames</label>
+                  <label for="surnames" class="login-label">Surnames:</label>
 
-
+                <i class="ri-id-card-fill login-icon"></i>
                 </div>
 
                 <div class="login-box">
 
                   <input type="email" class="login-input" id=""required placeholder/>
-                  <label for="createEmail" class="login-label">CreateEmail</label>
+                  <label for="createEmail" class="login-label">CreateEmail:</label>
 
-                  
+                <i class="ri-mail-fill login-icon"></i>
                 </div>
 
                 <div class="login-box">
 
                   <input type="password" class="login-input" id="passwordCreate"required placeholder/>
-                  <label for="passwordCreate" class="login-label">Password</label>
+                  <label for="passwordCreate" class="login-label">Password:</label>
 
                   
                 </div>
 
               </div>
             </div>
+            <button type="submit" class="login-button">Create </button>
           </form>
 
-          <p class="login-switch"></p>
+          <p class="login-switch">
+            Already have an account?
+            <button id="loginButtonAccess">Login</button>
+          </p>
         </div>
-      </div>
+        </div>
 
       <script src="script.js"></script>
+    </div>
     </div>
   </body>
 </html>
