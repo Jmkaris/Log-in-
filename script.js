@@ -1,4 +1,4 @@
-const   loginAccessREgister = document.getElementById('loginAccessRegister'),
+const   loginAccessRegister = document.getElementById('loginAccessRegister'),
         buttonRegister = document.getElementById('loginButtonRegister'),
         buttonAccess = document.getElementById('loginButtonAccess')
 
